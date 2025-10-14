@@ -98,13 +98,13 @@ npm start
 
 
 
-## 🏗️ Built with ❤️ by Vaibhav Bhargav
+## 🏗️ Built with ❤️ by Shreeyali Singh
 
-Hi, I'm **Vaibhav Bhargav** — a full-stack developer passionate about solving real-world problems with scalable software. PawVaidya is one of my pet (literally!) projects aimed at blending my love for animals and technology.
+Hi, I'm **Shreeyali Singh** — a full-stack developer passionate about solving real-world problems with scalable software. PawVaidya is one of my pet (literally!) projects aimed at blending my love for animals and technology.
 
-- 🔗 [Portfolio](https://vaibhav-taupe.vercel.app/)
-- 💼 [LinkedIn](https://www.linkedin.com/in/vaibhav-bhargav-208470252/)
-- 💻 [GitHub](https://github.com/vaibhav-0310)
-- 📧 [Email](mailto:vaibhavbhargav03@gmail.com)
+- 🔗 [Portfolio](https://shreeyali.vercel.app/)
+- 💼 [LinkedIn](https://www.linkedin.com/in/shreeyali-singh26/)
+- 💻 [GitHub](https://github.com/Shreeyalisingh)
+- 📧 [Email](mailto:shreeyalisingh26@gmail.com)
 
 > Feedback, collaborations, or suggestions? I’d love to hear from you!

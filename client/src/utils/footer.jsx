@@ -52,19 +52,19 @@ function Footer() {
                     <ul className="list-unstyled">
                         <li className="mb-2 d-flex align-items-center">
                             <i className="fa-solid fa-envelope me-2"></i>
-                            <a href="mailto:grayman011@gmail.com" className="text-decoration-none text-light">
-                                grayman011@gmail.com
+                            <a href="mailto:shreeyalisingh26@gmail.com" className="text-decoration-none text-light">
+                                shreeyalisingh26@gmail.com
                             </a>
                         </li>
                         <li className="mb-2 d-flex align-items-center">
                             <i className="fa-solid fa-phone me-2"></i>
                             <a href="tel:+919719323052" className="text-decoration-none text-light">
-                                +91 97193 23052
+                                +91 11111 11111
                             </a>
                         </li>
                         <li className="mb-3 d-flex align-items-center">
                             <i className="fa-solid fa-location-dot me-2"></i>
-                            <span>Agra, India</span>
+                            <span>Varanasi, India</span>
                         </li>
                         <li>
                             <div className="d-flex gap-3">
