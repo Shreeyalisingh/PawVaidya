@@ -48,49 +48,6 @@ const tryMultiplePdfParsers = async (pdfBuffer) => {
       });
       return data.text;
     },
-
-    // Strategy 3: pdf-parse with error tolerance
-    async () => {
-      console.log("Trying pdf-parse with custom render...");
-      const data = await pdfParse(pdfBuffer, {
-        max: 0,
-        pagerender: async (pageData) => {
-          try {
-            const textContent = await pageData.getTextContent();
-            let lastY,
-              text = "";
-            for (let item of textContent.items) {
-              if (lastY == item.transform[5] || !lastY) {
-                text += item.str;
-              } else {
-                text += "\n" + item.str;
-              }
-              lastY = item.transform[5];
-            }
-            return text;
-          } catch (error) {
-            console.log("Custom render failed, falling back to default");
-            return pageData
-              .getTextContent()
-              .then((content) =>
-                content.items.map((item) => item.str).join(" ")
-              );
-          }
-        },
-      });
-      return data.text;
-    },
-
-    // Strategy 4: Basic text extraction (fallback)
-    async () => {
-      console.log("Trying basic text extraction...");
-      const data = await pdfParse(pdfBuffer, {
-        max: 0,
-        normalizeWhitespace: false,
-        disableCombineTextItems: false,
-      });
-      return data.text;
-    },
   ];
 
   let lastError;
@@ -380,4 +337,3 @@ Please provide a helpful and informative answer.`,
 });
 
 export default router;
-.   
