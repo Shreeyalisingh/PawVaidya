@@ -41,7 +41,7 @@ We are currently working on the core feature including  appointment scheduling.
 
 ```bash
 # Clone the repository
-git clone https://github.com/vaibhav-0310/pawvaidya.git
+git clone https://github.com/Shreeyalisingh/PawVaidya.git
 cd pawvaidya
 
 # Install server dependencies
