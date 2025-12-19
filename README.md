@@ -64,7 +64,6 @@ npm start
 
 ---
 
-## ScreenShots (for website till developed)
 
 ![image](https://github.com/user-attachments/assets/be1a86c5-ef5f-4396-858a-9fef2696c3d6)
 
